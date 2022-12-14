@@ -1,0 +1,52 @@
+/* Reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: .6rem 1rem;
+    border-radius: 0;
+    border-width: 0;
+    border-color: currentColor;
+}
+
+/* header */
+
+/* header navigation bar */
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+.header-nav .left-side, .header-nav .right-side, .header-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.jumbotron{
+    height: 80vh;
+    background-color: aqua;
+}

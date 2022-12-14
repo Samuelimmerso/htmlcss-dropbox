@@ -1,0 +1,9 @@
+button.bluebtn{
+    background-color: #0160FF;
+    color: white;
+}
+
+button.whitebtn{
+    background-color: white;
+    color: black;    
+}
