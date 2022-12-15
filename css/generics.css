@@ -7,3 +7,13 @@ button.whitebtn{
     background-color: white;
     color: black;    
 }
+
+h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 80px; 
+}

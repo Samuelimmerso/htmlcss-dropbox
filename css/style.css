@@ -18,6 +18,13 @@ button{
     border-color: currentColor;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25vh 15vw;
+}
+
 
 /* header */
 
@@ -57,16 +64,6 @@ nav a{
     position: relative;
 }
 
-/* title */
-.jumbotitle{
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-.jumbotitle h1{
-    line-height: 80px;
-} 
-
 /* jumbotron call to action */
 .jumbo-underground{
     position: relative;
@@ -89,7 +86,67 @@ nav a{
 
 .jumboimage img{
     position: absolute;
-    width: 800px;
+    width: 55vw;
     left: 40%;
 }
+
+/* main section */
+
+main .checkbox-plan{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border: 1px gainsboro solid;
+    border-radius: 50%;
+}
+
+/* plan selection */
+.checkbox-plan:hover{
+    cursor: pointer;
+}
+
+.checkbox-plan:active{
+    animation: select .1s linear infinite;
+}
+
+@keyframes select {
+    0%{
+        border: 4.5px #0160FF solid;
+    }
+
+    100%{
+        border: 4.5px #0160FF solid;
+    }
+}
+
+.plan-container, .plan{
+    display: flex;
+    align-items: center;
+}
+
+.plan-container{
+    gap: 1rem;
+}
+
+.plan{
+    gap: .3rem;
+}
+
+/* plan column */
+
+.plan-column{
+    display: flex;
+    border: 1px black solid;
+}
+
+.plantype{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    border: 1px black dotted;
+}
+
+
+
+
 
