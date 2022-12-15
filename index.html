@@ -14,7 +14,7 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/generics.css">
+    <link rel="stylesheet" href="./css/utils.css">
 </head>
 <body>
     
@@ -44,32 +44,40 @@
             </div>
         </nav>
 
-            <div class="jumbotron">
+        <div class="jumbotron">
 
-                <div class="jumbotitle">
-                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <!-- jumbotron title -->
+            <div class="jumbotitle">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+            </div>
+
+            <!-- jumbotron underground -->
+            <div class="jumbo-underground">
+                <div class="jumbocta">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis magni, nihil eaque placeat saepe fugiat incidunt? Dignissimos suscipit voluptatem ab magni veniam praesentium sint ea et consequatur eum! Voluptatem, in!</p>
+
+                    <!-- call to action subscription-->
+                    <div class="subscription">
+                        <button class="bluebtn">Inizia la tua prova gratuita</button>
+                        <span>Annulla in qualsiasi momento</span>
+                    </div>
+
+                    <!-- -----add link here-----  -->
+                    <span><a href="#"><i class="fa-sharp fa-solid fa-arrow-down"></i></a></span>
                 </div>
 
-                <div class="jumbo-underground">
-                    <div class="jumbocta">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis magni, nihil eaque placeat saepe fugiat incidunt? Dignissimos suscipit voluptatem ab magni veniam praesentium sint ea et consequatur eum! Voluptatem, in!</p>
-
-                        <button class="bluebtn">Inizia la tua prova gratuita</button>
-
-                        <span>Annulla in qualsiasi momento</span>
-
-                        <!-- -----add link here-----  -->
-                        <span><a href="#"><i class="fa-sharp fa-solid fa-arrow-down"></i></a></span>
-                    </div>
-                    <div class="jumboimage">
-                        <img src="./img/jumbo.png" alt="">
-                    </div>
+                <!-- jumbotron image -->
+                <div class="jumboimage">
+                    <img src="./img/jumbo.png" alt="dropbox">
                 </div>
             </div>
+        </div>
     </header>
 
+    
     <!-- main section -->
     <main>
+
         <!-- main title -->
         <h2>Trova il piano business che fa per te</h2>
 
@@ -86,8 +94,11 @@
             </div>
         </section>
 
-        <!-- plan column container -->
-        <section class="plan-column">
+
+        <!-- plan row container -->
+        <section class="plan-row">
+
+<!-- PLAN TYPE 1 -->
 
             <!-- plan type container -->
             <div class="plantype-container">
@@ -106,9 +117,9 @@
                         </div>
 
                         <div class="function">
-                            <span>&hearts;1 Utente</span>
-                            <span>&hearts;1 Utente</span>
-                            <span>&hearts;1 Utente</span>
+                            <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                            <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span><i class="fa-solid fa-share-nodes"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, accusantium.</span>
                         </div>
 
                         <div class="cta">
@@ -116,26 +127,115 @@
                             <span>oppure <a href="#">acquista ora</a></span>
                         </div>
 
+                        <!-- border -->
+                        <div class="whiteborder"></div>
                     </div>
 
                     <div class="plan-details-down">
                         <h4>Punti Salienti del piano</h4>
 
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                        </ul>
+                        <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                        <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                         
                     </div>
                 </div>
-
             </div>
-            <!-- <div class="plantype"></div>
-            <div class="plantype"></div> -->
+
+<!-- PLAN TYPE 2 -->
+
+            <!-- plan type container -->
+            <div class="plantype-container">
+
+                <!-- plan type -->
+                <span class="type">&hearts;Singolo</span>
+
+                <!-- plan details -->
+                <div class="plan-details">
+                    <div class="plan-details-top">
+
+                        <div class="price">
+                            <h3>Professional</h3>
+                            <h4>&euro; 12.00</h4>
+                            <span>/mese</span>
+                        </div>
+
+                        <div class="function">
+                            <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                            <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span><i class="fa-solid fa-share-nodes"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, accusantium.</span>
+                        </div>
+
+                        <div class="cta">
+                            <button class="bluebtn">Prova gratis per 30 giorni</button>
+                            <span>oppure <a href="#">acquista ora</a></span>
+                        </div>
+
+                        <!-- border -->
+                        <div class="whiteborder"></div>
+                    </div>
+
+                    <div class="plan-details-down">
+                        <h4>Punti Salienti del piano</h4>
+
+                        <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                        <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                        
+                    </div>
+                </div>
+            </div>
+
+<!-- PLAN TYPE 3 -->
+
+            <!-- plan type container -->
+            <div class="plantype-container">
+
+                <!-- plan type -->
+                <span class="type">&hearts;Singolo</span>
+
+                <!-- plan details -->
+                <div class="plan-details">
+                    <div class="plan-details-top">
+
+                        <div class="price">
+                            <h3>Professional</h3>
+                            <h4>&euro; 12.00</h4>
+                            <span>/mese</span>
+                        </div>
+
+                        <div class="function">
+                            <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                            <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            <span><i class="fa-solid fa-share-nodes"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, accusantium.</span>
+                        </div>
+
+                        <div class="cta">
+                            <button class="bluebtn">Prova gratis per 30 giorni</button>
+                            <span>oppure <a href="#">acquista ora</a></span>
+                        </div>
+
+                        <!-- border -->
+                        <div class="whiteborder"></div>
+                    </div>
+
+                    <div class="plan-details-down">
+                        <h4>Punti Salienti del piano</h4>
+
+                        <span><i class="fa-solid fa-user"></i> 1 Utente</span>
+                        <span><i class="fa-solid fa-folder"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
         </section>
         
     </main>
-        
+</section>
+    
 
 
 </body>
