@@ -139,14 +139,21 @@ main .checkbox-plan{
     border: 1px black solid;
 }
 
-.plantype{
+.plantype-container{
     display: flex;
     flex-direction: column;
     max-width: 30%;
     border: 1px black dotted;
 }
 
+.price, .function, .cta{
+    display: flex;
+    flex-direction: column;
+}
 
+.plan-details-down ul{
+    list-style-position: inside;
+}
 
 
 
