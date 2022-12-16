@@ -243,6 +243,8 @@ section.enterprise-plan{
     margin-top: 0;
 }
 
+
+
 /* partnership */
 
 .partnership{
@@ -269,6 +271,23 @@ section.enterprise-plan{
 
 
 
+
+/* dropbox business */
+
+.dropbox-business .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.dropbox-business .card{
+    max-width: calc(100%/3 - 2rem);
+}
+
+.card img{
+    width: 100%;
+} 
 
 
  
