@@ -22,10 +22,20 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 25vh 15vw;
+    margin: auto;
+    max-width: 1200px;
 }
 
 /* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+
 /* header navigation bar */
 .header-nav{
     display: flex;
@@ -51,13 +61,12 @@ nav a{
     gap: 2rem;
 }
 
-/* header jumbotron */
+/* main jumbotron */
 .jumbotron{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 90vh;
-    padding: 5% 10%;
+    padding: 150px 160px 0px 160px;
     background-color: #B3D0E7;
 }
 
@@ -65,13 +74,13 @@ nav a{
 
 .jumbo-underground{
     display: flex;
-    margin-top: 10%;
+    margin-top: 100px;
 }
 
 .jumbocta{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     gap: 3rem;
 }
 
@@ -87,10 +96,17 @@ nav a{
 }
 
 .jumboimage img{
-    width: 55vw;
+    width: 57vw;
+    position: absolute;
+    bottom: -100px;
+    right: 5rem;
 }
 
 /* main section */
+
+main > h2{
+margin-top: 10rem;
+}
 
 main .checkbox-plan{
     width: 1rem;
@@ -149,8 +165,9 @@ main .checkbox-plan{
 }
 
 /* type of plan (single,team ecc..) */
-.plantype-container .type{
+.type{
     padding: .5rem;
+    text-align: center;
 }
 
 /* details about the plan */
@@ -175,6 +192,7 @@ main .checkbox-plan{
     flex-direction: row;
     gap: 5px;
 }
+
 .price, .function, .cta{
     display: flex;
     flex-direction: column;
@@ -195,12 +213,59 @@ main .checkbox-plan{
 /* bottom section of the details */
 .plan-details-down{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     margin-top: 3rem;
     gap: 2rem;
 }
 
+/* enterprise plan */
+section.enterprise-plan{
+    margin-top: 3rem;
+    border: 1px #cccccc solid;
+}
 
+.enterprise-plan .type{
+    border-bottom: 1px #cccccc solid;
+}
+.enterprise-plan .plan-details{
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+    gap: 2rem;
+}
+
+.plan-details-top{
+    width: 70%;
+    border-bottom: none;
+}
+
+.plan-details-down{
+    margin-top: 0;
+}
+
+/* partnership */
+
+.partnership{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem auto;
+}
+
+.partnership img{
+    width: 60%;
+}
+
+.partnership-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 30%;
+}
+
+.partnership-description button{
+    width: 50%;
+}
 
 
 
