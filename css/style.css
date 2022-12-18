@@ -26,6 +26,11 @@ main{
     max-width: 1200px;
 }
 
+
+
+
+
+
 /* header */
 header{
     position: fixed;
@@ -60,6 +65,11 @@ nav a{
     align-items: center;
     gap: 2rem;
 }
+
+
+
+
+
 
 /* main jumbotron */
 .jumbotron{
@@ -101,6 +111,11 @@ nav a{
     bottom: -100px;
     right: 5rem;
 }
+
+
+
+
+
 
 /* main section */
 
@@ -153,6 +168,7 @@ main .checkbox-plan{
 .plan-row{
     display: flex;
     margin-top: 3rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 
@@ -160,7 +176,7 @@ main .checkbox-plan{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: calc(100%/3 - 2rem);
+    width: 100%;
     border: 1px #cccccc solid;
 }
 
@@ -218,6 +234,13 @@ main .checkbox-plan{
     gap: 2rem;
 }
 
+
+
+
+
+
+
+
 /* enterprise plan */
 section.enterprise-plan{
     margin-top: 3rem;
@@ -242,6 +265,10 @@ section.enterprise-plan{
 .plan-details-down{
     margin-top: 0;
 }
+
+
+
+
 
 
 
@@ -272,6 +299,8 @@ section.enterprise-plan{
 
 
 
+
+
 /* dropbox business */
 
 .dropbox-business .row{
@@ -282,12 +311,85 @@ section.enterprise-plan{
 }
 
 .dropbox-business .card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
     max-width: calc(100%/3 - 2rem);
 }
 
 .card img{
     width: 100%;
 } 
+
+
+
+
+
+
+
+/* .dropbox-users-companies */
+
+.dropbox-users-companies .title{
+    width: 750px;
+}
+
+.dropbox-users-companies .title h2{
+    margin-bottom: 4rem;
+    line-height: 3.5rem;
+}
+
+.companies-logos{
+    display: flex;
+}
+
+.companies-logos .company-column{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: unset;
+    background-color: red;
+    width: calc(100%/3);
+    /* debug */
+    /* border: 5px dotted black; */
+    height: 500px;
+}
+
+.company-column .company-card{
+    background-color: green;
+    width: calc(100%/2);
+    /* debug */
+    border: 5px dotted black;
+    height: 250px;
+}
+
+
+
+
+
+/* company cta */
+
+.company-cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* debug */
+    padding: 100px 0;
+    background-color: #B3D0E7;
+    color: #6C1C2C;
+}
+
+.company-cta h2{
+   width: 40%;
+   line-height: 3.5rem;
+}
+
+.company-cta button{
+    /* debug */
+    height: 50px;
+    width: 350px;
+}
+
+
 
 
  
