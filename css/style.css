@@ -137,7 +137,7 @@ main .checkbox-plan{
 }
 
 .checkbox-plan:active{
-    animation: select .1s linear infinite;
+    animation: select 10s linear infinite;
 }
 
 @keyframes select {
@@ -384,9 +384,37 @@ section.enterprise-plan{
 }
 
 .company-cta button{
-    /* debug */
     height: 50px;
     width: 350px;
+}
+
+
+/* q&a */
+
+.q-and-a h2{
+    margin: 3rem 0;
+}
+
+.details{
+    padding: 1.5rem;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin-top: 15px;
+    display: none;
+}
+
+.details:hover p{
+    display: block;
+} 
+
+.details:hover i{
+    transform: rotate(180deg);
 }
 
 
